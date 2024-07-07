@@ -1,0 +1,23 @@
+{
+  "name": "polling-system-api",
+  "version": "1.0.0",
+  "description": "Polling system API with the features like create a question, add a option, add vote to a particular option.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Polling",
+    "polling-api"
+  ],
+  "author": "Prince",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "i": "^0.3.7",
+    "mongoose": "^8.4.5",
+    "npm": "^10.8.1"
+  }
+}
